@@ -1,0 +1,79 @@
+<!DOCTYPE Html>
+    <html>
+        <meta charset="utf-8">
+        <head>
+            <title> disenatufiesta</title>
+            <link rel="stylesheet" href="css/estilo.css">
+            <script src="js/Java.js"></script>
+         
+        </head> 
+     <body onload="lili();">
+         
+         
+        <div id="menu"><br>
+        <div id="menu_boton"><br>
+            <ul>
+                <li><a href=""> Home</a></li>
+                 <li><a href="paginas/decora.html" onmouseover="mostrarsubmenu('DecoraPapel','visible');" > Decora con papel</a>
+               
+                </li>
+                  <li><a href="#" onmouseover="mostrarsubmenu('DecoraBanderines','visible');" > Decora con banderines</a>
+              
+                </li>
+                   <li><a href="#" onmouseover="mostrarsubmenu('DecoraNavidad','visible');"> Navidad</a>
+                
+                </li>
+                    <li><a href="#" onmouseover="mostrarsubmenu('DecoraCumple','visible');"> Cumpleaños</a>
+                
+                </li>
+                     <li><a href="#" onmouseover="mostrarsubmenu('DecoraVarios','visible');"> Varios</a>
+               
+                </li>
+                      <li><a href="#" onmouseover="mostrarsubmenu('DecoraMateriales','visible');"> Materiales</a>
+                
+                </li>
+                        <li><a href="#" onclick="mostrar()"> Contacto</a></li>
+            </ul>
+        </div>
+            <div id="DecoraPapel" class="vertical">
+             <ul class="submenu"><li>item1</li><li>item2</li></ul>
+            </div>
+            <div id="DecoraBanderines" class="vertical" >
+             <ul class="submenu"><li>item1</li><li>item2</li></ul>
+            </div>
+            <div id="DecoraNavidad" class="vertical">
+             <ul class="submenu"><li>item1</li><li>item2</li></ul>
+            </div>
+            <div id="DecoraCumple" class="vertical">
+             <ul class="submenu"><li>item1</li><li>item2</li></ul>
+            </div>
+               <div id="DecoraVarios" class="vertical">
+             <ul class="submenu"><li>item1</li><li>item2</li></ul>
+            </div>
+               <div id="DecoraMateriales" class="vertical">
+             <ul class="submenu"><li>item1</li><li>item2</li></ul>
+            </div>
+        </div>
+         <div id="formulario">
+            <a href="#" id="X" onclick="Cerrar()" > Cerrar X</a>
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label for="name">Tu nombre:</label><br/>
+                    <input id="name" class="input" name="name" type="text" value="" size="30" /><br/>
+                </div>
+                <div class="row">
+                    <label for="email">Tu email:</label><br/>
+                    <input id="email" class="input" name="email" type="text" value="" size="30" /><br/>
+                </div>
+                <div class="row">
+                    <label for="message">Tu mensaje:</label><br/>
+                    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br/>
+                </div>
+                    <input id="submit_button" type="submit" value="Enviar Mensaje"/>
+            </form>
+
+         </div>
+    </body>
+</html>
+ 
+ 
