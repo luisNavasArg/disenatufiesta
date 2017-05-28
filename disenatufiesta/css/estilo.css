@@ -1,0 +1,96 @@
+#menu{
+width: 100%;
+height: 200px;
+background-image: url(../imagenes/Fondo.png);
+}
+#menu_boton{
+width: 950px;
+height: 100px;
+background: #F6AE97;
+margin-left: auto;
+margin-right: auto;
+margin-top: 100px;
+opacity: 0.7;
+    filter:alpha(opacity=70);
+
+}
+/* el selector utilizado para el id es #*/
+#menu_boton ul li {
+list-style: none;
+display: inline;
+font-weight: bold;
+padding: 10px;
+margin-top: 10px;
+}
+
+#DecoraPapel ul li, #DecoraBanderines ul li, #DecoraNavidad ul li, #DecoraCumple ul li, #DecoraVarios ul li, #DecoraMateriales ul li {
+list-style: none;
+/*display: inline;*/
+font-weight: bold;
+padding: 10px;
+margin-top: 10px;
+
+}
+#DecoraPapel{
+        position: absolute;
+    top:25%;
+    left: 20%;
+    visibility: hidden;
+}
+#DecoraBanderines{
+        position: absolute;
+    top:25%;
+    left: 30.5%;
+    visibility: hidden;
+}
+#DecoraNavidad{
+        position: absolute;
+    top:25%;
+    left: 44.2%;
+    visibility: hidden;
+}
+#DecoraCumple{
+        position: absolute;
+    top:25%;
+    left: 50.5%;
+    visibility: hidden;
+}
+#DecoraVarios{
+        position: absolute;
+    top:25%;
+    left: 58.5%;
+    visibility: hidden;
+}
+#DecoraMateriales{
+        position: absolute;
+    top:25%;
+    left: 63.5%;
+    visibility: hidden;
+}
+
+#menu_boton a{
+color:seagreen;
+text-decoration: none;
+}
+#menu_boton ul li:hover{
+background:orangeRed;
+transition: all 0.45s;
+}
+/* el selector utilizado para la clase es .*/
+.clase1{background: yellow;}
+#formulario{
+    position: absolute;
+    top:50%;
+    left: 70%;
+   visibility: hidden;
+     text-align: right;
+}
+.mostrarContacto{
+    visibility: visible;
+}
+#formulario form {
+    text-align: left;
+}
+.vertical{
+    
+}
