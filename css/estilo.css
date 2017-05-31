@@ -36,59 +36,11 @@ padding: 10px;
 margin-top: 10px;
 }
 
-li{
-padding: 10px;
-list-style: none;
-margin-top: 10px;
-}
+
 table{
 margin-right: 20%;
 }
 
-#DecoraPapel ul li, #DecoraBanderines ul li, #DecoraNavidad ul li, #DecoraCumple ul li, #DecoraVarios ul li, #DecoraMateriales ul li {
-list-style: none;
-/*display: inline;*/
-font-weight: bold;
-padding: 10px;
-margin-top: 10px;
-
-}
-#DecoraPapel{
-        position: absolute;
-    top:25%;
-    left: 20%;
-    visibility: hidden;
-}
-#DecoraBanderines{
-        position: absolute;
-    top:25%;
-    left: 30.5%;
-    visibility: hidden;
-}
-#DecoraNavidad{
-        position: absolute;
-    top:25%;
-    left: 44.2%;
-    visibility: hidden;
-}
-#DecoraCumple{
-        position: absolute;
-    top:25%;
-    left: 50.5%;
-    visibility: hidden;
-}
-#DecoraVarios{
-        position: absolute;
-    top:25%;
-    left: 58.5%;
-    visibility: hidden;
-}
-#DecoraMateriales{
-        position: absolute;
-    top:25%;
-    left: 63.5%;
-    visibility: hidden;
-}
 
 #menu_boton th{
 color:seagreen;
@@ -99,8 +51,7 @@ background:orangeRed;
 transition: all 0.45s;
 cursor:pointer;
 }
-/* el selector utilizado para la clase es .*/
-.clase1{background: yellow;}
+
 #formulario{
     position: absolute;
     top:50%;
@@ -116,6 +67,4 @@ cursor:pointer;
     text-align: left;
     
 }
-.vertical{
-    
-}
+
